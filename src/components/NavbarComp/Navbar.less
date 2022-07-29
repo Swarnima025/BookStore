@@ -1,0 +1,123 @@
+.container{
+  padding: 0;
+  height:70px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: space-between;
+ align-items: center;
+ background: rgb(2,0,36);
+ background:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(246, 79, 210) 35%, rgb(185, 239, 123) 100%);;
+}
+.logo{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items: center;
+  color: aliceblue;
+  padding-left:7px;
+  cursor: pointer;
+}
+#logoname{
+  padding-left: 4px;
+}
+
+.icons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-right:7px;
+  cursor: pointer;
+  padding-right: 20px;
+
+}
+#cart-navbar{
+  padding:8px; 
+  margin-right: 15px;
+  border-radius: 1rem;
+  box-shadow:  0 4px 8px 0 rgba(0,0,0,0.2);    
+  line-height: 45px;
+
+}
+#heart{
+  padding:8px; 
+  margin-right: 15px;
+  border-radius: 1rem;
+  box-shadow:  0 4px 8px 0 rgba(0,0,0,0.2);    
+
+  
+
+}
+#cart-navbar:hover{
+  transform: scale(1.3);
+  background-color: rgb(121, 195, 227);
+}
+#heart:hover{
+  transform: scale(1.3);
+  background-color: rgb(230, 90, 90);
+
+}
+button{
+  background: none;
+  border-radius: 10%;
+  padding:3px;
+  margin-left: 6px;
+}
+button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    transform: scale(1.3);
+    
+}
+.search{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.searchinput{
+  width:300px;
+  height:25px;
+}
+
+#searchicon{
+  background-color: black;
+  border-top-right-radius: 20%;
+  border-bottom-right-radius: 20%; 
+  padding:6px;
+  cursor: pointer;
+
+}
+#searchicon:hover{
+  transform: scale(1.2);
+}
+.wrapper{
+  position: relative;
+  }
+  .wrapper span{
+  position: absolute;
+  top: -1px;
+  right: 2px; 
+  }
+.wrapperwishlist{
+    position: relative;
+ }
+ .wrapperwishlist span{
+    position: absolute;
+    top: -10px;
+    right: 1px; 
+ }
+.cart-count{
+  font-size: 15px;
+  color:rgb(179, 28, 28);
+  font-weight: bold;
+  padding: 2px 5px;
+  margin-left: -35px;
+  background: white;
+  height:15px;
+  border-radius: 50%;
+  width:15px;
+}
