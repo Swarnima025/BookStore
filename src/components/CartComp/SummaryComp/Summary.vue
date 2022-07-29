@@ -15,7 +15,7 @@
     </tr>
      <tr>
          <td><h4>SubTotal:</h4></td>
-         <td><h4>Rs.parseInt(totalPrice)+parseInt(shipping) </h4></td>
+         <td><h4>Rs.{{totalPrice + 50}}</h4></td>
     </tr>
     </table>
     </div> 
